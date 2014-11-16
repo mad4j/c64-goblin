@@ -11,6 +11,11 @@ Original source from [Compute! Magazine](http://www.atarimagazines.com/compute/i
 ### Reduced startup time
 Only digit chars are copied from ROM map (80 instead of 2048 bytes)
 
+### Improved code readabilty
+#### Code identation
+#### Subroutines
+#### List Zones
+
 Goals:
 - [ ] more readable code
   - [ ] comment usage
