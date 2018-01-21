@@ -8,6 +8,8 @@ C64 remake of Compute! Goblin using:
 
 Original source from [Compute! Magazine](http://www.atarimagazines.com/compute/issue38/023_1_GOBLIN.php)
 
+![original screenshot](assets/images/original-g64.jpg)
+
 ### Reduced startup time
 Only digit chars are copied from ROM map (80 instead of 2048 bytes)
 
