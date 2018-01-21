@@ -1,7 +1,7 @@
-c64-goblin
-==========
+Goblin RELOADED
+===============
 
-C64 remake of Compute! Goblin using:
+C64 remake of Compute! Goblin (by Dan Goff) using:
 
 * Emulator: [Vice](http://vice-emu.sourceforge.net/)
 * IDE: [CBM prg Studio](http://www.ajordison.co.uk/)
