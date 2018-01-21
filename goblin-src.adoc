@@ -1,5 +1,0 @@
-.goblin.bas
-[source,basic]
-----
-include::Goblin/goblin.bas[]
-----
