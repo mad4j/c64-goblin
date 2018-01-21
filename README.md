@@ -12,11 +12,11 @@ Original source from [Compute! Magazine](http://www.atarimagazines.com/compute/i
 Only digit chars are copied from ROM map (80 instead of 2048 bytes)
 
 ### Improved code readabilty
-#### Code identation
-#### Subroutines
-#### List Zones
+* Code identation
+* Subroutines
+* List Zones
 
-Goals:
+### Goals
 - [ ] more readable code
   - [ ] comment usage
   - [ ] constant name
