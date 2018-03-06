@@ -8,6 +8,8 @@ C64 remake of Compute! Goblin (by Dan Goff) using:
 
 Original source from [Compute! Magazine](http://www.atarimagazines.com/compute/issue38/023_1_GOBLIN.php)
 
+![reloaded gameply](assets/images/goblin.gif)
+
 ![original screenshot](assets/images/original-c64.jpg)
 
 ### Reduced startup time
