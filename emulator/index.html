@@ -1,0 +1,35 @@
+<!--
+ The Emularity: An Example C64 Loader
+ For use with The Emularity, downloadable at http://www.emularity.com/
+-->
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>example dos game</title>
+  </head>
+  <body>
+    <canvas id="canvas" style="width: 50%; height: 50%; display: block; margin: 0 auto;"/>
+    <script type="text/javascript" src="es6-promise.js"></script>
+    <script type="text/javascript" src="browserfs.min.js"></script>
+    <script type="text/javascript" src="loader.js"></script>
+    <script type="text/javascript">
+      var emulator = new Emulator(document.querySelector("#canvas"),
+                                  null,
+                                  new VICELoader(VICELoader.emulatorJS("emulators/vicejs/vice-resid.js"),
+                                                 VICELoader.nativeResolution(768, 544),
+                                                 VICELoader.extraArgs(["-soundfragsize", "4",
+                                                                       "-soundrate", "48000",
+                                                                       "-soundsync", "2",
+                                                                       "-soundbufsize", "150",
+                                                                       "-residsamp", "0",
+                                                                       "-joydev1", "4"]),
+                                                 VICELoader.mountFile("goblin.prg",
+                                                                      VICELoader.fetchFile("Disc 1",
+                                                                                           "games/goblin.prg")),
+                                                                      VICELoader.fliplist([["goblin.prg"]]),
+                                                 VICELoader.autoLoad("goblin.prg")))
+      emulator.start({ waitAfterDownloading: false });
+    </script>
+  </body>
+</html>
